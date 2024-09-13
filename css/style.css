@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html, body{
+    margin: 0%;
+    padding: 0%;
+}
+
+ul, li, a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(66, 106, 191);
+    height: 60px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.titulo{
+    color: white;
+    font-family: 'Opens Sans'Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    line-height: 60px;
+    margin-left: 1rem;
+}
+
+table{
+    margin: 1rem;
+}
+
+nav > ul{
+    display: flex;
+}
+
+table, th, td{
+    border: 1px solid black;
+    font-size: 13pt;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    border-collapse: collapse;/*retirar os espaços*/
+    padding: 20px;
+}
+
+th{
+    color: white;
+    background-color: black;
+}
+
+tr:nth-child(even){ /*linha par*/
+    background-color: rgb(62, 62, 174);
+}
+
+tr:nth-child(odd){ /*Linha impar*/
+    background-color: rgb(163, 41, 41);
+}
+
+tr:hover{ /*Passar o mouse*/
+    background: white;
+}
+
+.conteudo{
+    margin: 2rem
+}
+
+.imagens{
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+
+.imagem{
+    height: auto;
+    width: 400px;
+    border-radius: 10x;
+    border: 1px solid black;
+    margin: 3px;
+}
+
+.links{
+    color: whitesmoke;
+    font-family: 'Open Sans'Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
